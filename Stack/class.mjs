@@ -9,7 +9,7 @@ export default class Stack {
 
 	pop(element) {
 		if (this.isEmpty()) return "Underflow";
-		this.items.pop();
+		return this.items.pop();
 	}
 
 	peek() {
