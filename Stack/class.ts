@@ -28,19 +28,11 @@ export default class Stack<T> {
     return this.items.length;
   }
 
-<<<<<<< HEAD
   clear(): void {
     this.items = [];
   }
 
   print(): void {
-=======
-  clear() {
-    this.items = [];
-  }
-
-  print() {
->>>>>>> 4ae7913f5281be6ea56426f648a5d6a0b446ab76
     console.log(this.items.toString());
   }
 }
